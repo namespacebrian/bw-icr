@@ -19,6 +19,7 @@
         "drupal/admin_toolbar": "^3.1",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-recommended": "^9.2",
+        "drupal/views_bulk_edit": "^2.6",
         "drupal/views_bulk_operations": "^4.1",
         "drush/drush": "^10",
         "pantheon-systems/drupal-integrations": "^9",
