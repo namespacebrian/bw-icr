@@ -1356,16 +1356,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.5.7",
+            "version": "9.5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "bf51aa8ed6ab733fcaf60d0860aefd3918140fe3"
+                "reference": "a9a1e4e1fe23fb8c83fd6aeafb740c1462a218fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/bf51aa8ed6ab733fcaf60d0860aefd3918140fe3",
-                "reference": "bf51aa8ed6ab733fcaf60d0860aefd3918140fe3",
+                "url": "https://api.github.com/repos/drupal/core/zipball/a9a1e4e1fe23fb8c83fd6aeafb740c1462a218fc",
+                "reference": "a9a1e4e1fe23fb8c83fd6aeafb740c1462a218fc",
                 "shasum": ""
             },
             "require": {
@@ -1517,13 +1517,13 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/9.5.7"
+                "source": "https://github.com/drupal/core/tree/9.5.8"
             },
-            "time": "2023-03-24T16:54:38+00:00"
+            "time": "2023-04-19T16:14:39+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.5.7",
+            "version": "9.5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -1567,22 +1567,22 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.5.7"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.5.8"
             },
             "time": "2023-03-09T21:29:23+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.5.7",
+            "version": "9.5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "4b63b8220b166ad9eca7b5ea05e485cbe1f2b4a7"
+                "reference": "74db3999d3432b7433b399fe76fa6ff6f126bed9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/4b63b8220b166ad9eca7b5ea05e485cbe1f2b4a7",
-                "reference": "4b63b8220b166ad9eca7b5ea05e485cbe1f2b4a7",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/74db3999d3432b7433b399fe76fa6ff6f126bed9",
+                "reference": "74db3999d3432b7433b399fe76fa6ff6f126bed9",
                 "shasum": ""
             },
             "require": {
@@ -1591,7 +1591,7 @@
                 "doctrine/annotations": "~1.13.3",
                 "doctrine/lexer": "~1.2.3",
                 "doctrine/reflection": "~1.2.3",
-                "drupal/core": "9.5.7",
+                "drupal/core": "9.5.8",
                 "egulias/email-validator": "~3.2.1",
                 "guzzlehttp/guzzle": "~6.5.8",
                 "guzzlehttp/promises": "~1.5.2",
@@ -1653,9 +1653,9 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/9.5.7"
+                "source": "https://github.com/drupal/core-recommended/tree/9.5.8"
             },
-            "time": "2023-03-24T16:54:38+00:00"
+            "time": "2023-04-19T16:14:39+00:00"
         },
         {
             "name": "drupal/views_bulk_edit",
@@ -2360,16 +2360,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.9.0",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "e98e3e6d4f86621a9b75f623996e6bbdeb4b9318"
+                "reference": "e4490cabc77465aaee90b20cfc9a770f8c04be6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/e98e3e6d4f86621a9b75f623996e6bbdeb4b9318",
-                "reference": "e98e3e6d4f86621a9b75f623996e6bbdeb4b9318",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/e4490cabc77465aaee90b20cfc9a770f8c04be6b",
+                "reference": "e4490cabc77465aaee90b20cfc9a770f8c04be6b",
                 "shasum": ""
             },
             "require": {
@@ -2388,11 +2388,6 @@
                 "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.9-dev"
-                }
-            },
             "autoload": {
                 "files": [
                     "src/functions_include.php"
@@ -2450,7 +2445,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/1.9.0"
+                "source": "https://github.com/guzzle/psr7/tree/1.9.1"
             },
             "funding": [
                 {
@@ -2466,7 +2461,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-20T21:43:03+00:00"
+            "time": "2023-04-17T16:00:37+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -3161,16 +3156,16 @@
         },
         {
             "name": "pear/pear-core-minimal",
-            "version": "v1.10.11",
+            "version": "v1.10.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/pear-core-minimal.git",
-                "reference": "68d0d32ada737153b7e93b8d3c710ebe70ac867d"
+                "reference": "aed862e95fd286c53cc546734868dc38ff4b5b1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/68d0d32ada737153b7e93b8d3c710ebe70ac867d",
-                "reference": "68d0d32ada737153b7e93b8d3c710ebe70ac867d",
+                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/aed862e95fd286c53cc546734868dc38ff4b5b1d",
+                "reference": "aed862e95fd286c53cc546734868dc38ff4b5b1d",
                 "shasum": ""
             },
             "require": {
@@ -3205,7 +3200,7 @@
                 "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=PEAR",
                 "source": "https://github.com/pear/pear-core-minimal"
             },
-            "time": "2021-08-10T22:31:03+00:00"
+            "time": "2023-04-19T19:15:47+00:00"
         },
         {
             "name": "pear/pear_exception",
@@ -7340,16 +7335,16 @@
         },
         {
             "name": "drupal/coder",
-            "version": "8.3.17",
+            "version": "8.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pfrenssen/coder.git",
-                "reference": "1c4662337418ab88c9ddf40348f0638e35d49182"
+                "reference": "d5911f812b69ca3bda5524899bdd06b3b4e687ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pfrenssen/coder/zipball/1c4662337418ab88c9ddf40348f0638e35d49182",
-                "reference": "1c4662337418ab88c9ddf40348f0638e35d49182",
+                "url": "https://api.github.com/repos/pfrenssen/coder/zipball/d5911f812b69ca3bda5524899bdd06b3b4e687ff",
+                "reference": "d5911f812b69ca3bda5524899bdd06b3b4e687ff",
                 "shasum": ""
             },
             "require": {
@@ -7387,11 +7382,11 @@
                 "issues": "https://www.drupal.org/project/issues/coder",
                 "source": "https://www.drupal.org/project/coder"
             },
-            "time": "2023-02-19T21:05:01+00:00"
+            "time": "2023-04-18T12:07:59+00:00"
         },
         {
             "name": "drupal/core-dev",
-            "version": "9.5.7",
+            "version": "9.5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-dev.git",
@@ -7435,7 +7430,7 @@
             ],
             "description": "require-dev dependencies from drupal/drupal; use in addition to drupal/core-recommended to run tests from drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-dev/tree/9.5.7"
+                "source": "https://github.com/drupal/core-dev/tree/9.5.8"
             },
             "time": "2022-07-27T00:23:55+00:00"
         },
@@ -8168,16 +8163,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.18.1",
+            "version": "1.20.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "22dcdfd725ddf99583bfe398fc624ad6c5004a0f"
+                "reference": "6c04009f6cae6eda2f040745b6b846080ef069c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/22dcdfd725ddf99583bfe398fc624ad6c5004a0f",
-                "reference": "22dcdfd725ddf99583bfe398fc624ad6c5004a0f",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/6c04009f6cae6eda2f040745b6b846080ef069c2",
+                "reference": "6c04009f6cae6eda2f040745b6b846080ef069c2",
                 "shasum": ""
             },
             "require": {
@@ -8207,9 +8202,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.18.1"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.20.3"
             },
-            "time": "2023-04-07T11:51:11+00:00"
+            "time": "2023-04-25T09:01:03+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -8531,16 +8526,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.6.6",
+            "version": "9.6.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "b65d59a059d3004a040c16a82e07bbdf6cfdd115"
+                "reference": "c993f0d3b0489ffc42ee2fe0bd645af1538a63b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b65d59a059d3004a040c16a82e07bbdf6cfdd115",
-                "reference": "b65d59a059d3004a040c16a82e07bbdf6cfdd115",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c993f0d3b0489ffc42ee2fe0bd645af1538a63b2",
+                "reference": "c993f0d3b0489ffc42ee2fe0bd645af1538a63b2",
                 "shasum": ""
             },
             "require": {
@@ -8614,7 +8609,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.6"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.7"
             },
             "funding": [
                 {
@@ -8630,7 +8625,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-27T11:43:46+00:00"
+            "time": "2023-04-14T08:58:40+00:00"
         },
         {
             "name": "react/promise",
@@ -9844,32 +9839,32 @@
         },
         {
             "name": "slevomat/coding-standard",
-            "version": "8.10.0",
+            "version": "8.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "c4e213e6e57f741451a08e68ef838802eec92287"
+                "reference": "af87461316b257e46e15bb041dca6fca3796d822"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/c4e213e6e57f741451a08e68ef838802eec92287",
-                "reference": "c4e213e6e57f741451a08e68ef838802eec92287",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/af87461316b257e46e15bb041dca6fca3796d822",
+                "reference": "af87461316b257e46e15bb041dca6fca3796d822",
                 "shasum": ""
             },
             "require": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2 || ^0.7 || ^1.0",
                 "php": "^7.2 || ^8.0",
-                "phpstan/phpdoc-parser": ">=1.18.0 <1.19.0",
+                "phpstan/phpdoc-parser": ">=1.20.0 <1.21.0",
                 "squizlabs/php_codesniffer": "^3.7.1"
             },
             "require-dev": {
                 "phing/phing": "2.17.4",
                 "php-parallel-lint/php-parallel-lint": "1.3.2",
-                "phpstan/phpstan": "1.4.10|1.10.11",
+                "phpstan/phpstan": "1.10.14",
                 "phpstan/phpstan-deprecation-rules": "1.1.3",
-                "phpstan/phpstan-phpunit": "1.0.0|1.3.11",
+                "phpstan/phpstan-phpunit": "1.3.11",
                 "phpstan/phpstan-strict-rules": "1.5.1",
-                "phpunit/phpunit": "7.5.20|8.5.21|9.6.6|10.0.19"
+                "phpunit/phpunit": "7.5.20|8.5.21|9.6.6|10.1.1"
             },
             "type": "phpcodesniffer-standard",
             "extra": {
@@ -9893,7 +9888,7 @@
             ],
             "support": {
                 "issues": "https://github.com/slevomat/coding-standard/issues",
-                "source": "https://github.com/slevomat/coding-standard/tree/8.10.0"
+                "source": "https://github.com/slevomat/coding-standard/tree/8.11.1"
             },
             "funding": [
                 {
@@ -9905,7 +9900,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-10T07:39:29+00:00"
+            "time": "2023-04-24T08:19:01+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -10400,5 +10395,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
